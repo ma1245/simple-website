@@ -1,10 +1,14 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
+:root {
+    --green: #00ff00;
+    --white: #ffffff;
+    --black: #000000;
 }
 
-ul {
-    font-family: Arial, Helvetica, sans-serif
-}
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
 
 li {
     list-style: circle;
@@ -14,11 +18,12 @@ li {
     list-style: square;
 }
 
-#msg {
-    font-family: 'Courier New', Courier, monospace;
+.light-theme {
+    --bg:var(--green);
+    --fontColor:var(--black);
 }
 
-.light-theme {
-    color: black;
-    background: #00ff00;
+.dark-theme {
+    --bg:var(--black);
+    --fontColor:var(--green);
 }

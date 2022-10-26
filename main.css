@@ -17,3 +17,8 @@ li {
 #msg {
     font-family: 'Courier New', Courier, monospace;
 }
+
+.light-theme {
+    color: black;
+    background: #00ff00;
+}
